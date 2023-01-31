@@ -1,7 +1,7 @@
 # tech201_controlflow
 # Control flow
 
-`if` `elif` `else` statements is a control flow structure in Pytjon programming that allows a program to evaluate multiple expressions and execute code block based on the conditions being met.
+`if` `elif` `else` statements is a control flow structure in Python programming that allows a program to evaluate multiple expressions and execute code block based on the conditions being met.
 `else` catches everything else if the criteria weren't met.
 `else` statement will be executed if all the conditions under the `if` and `elif` statements are `False`
 ### ***Quick example***
