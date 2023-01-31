@@ -1,12 +1,5 @@
-# tech201_controlflow
 # Control flow
 
-`if` `elif` `else` statements is a control flow structure in Pytjon programming that allows a program to evaluate multiple expressions and execute code block based on the conditions being met.
-`else` catches everything else if the criteria weren't met.
-`else` statement will be executed if all the conditions under the `if` and `elif` statements are `False`
-### ***Quick example***
-
-```
 film_rating = "16"
 if film_rating.lower() == "universal":
      print("All age groups can watch this film.")
@@ -20,4 +13,5 @@ elif film_rating.lower()== "18":
     print("You must be 18 to watch this ")
 else:
     print("This is not a correct rating, please use universal, pg, 12, 15, 18.")
-```
+
+# In Python they are no 'switch statement' or 'case statements'.
