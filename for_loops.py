@@ -9,8 +9,8 @@ list_data = [1 ,2 ,3 ,4 ,5]
 embedded_lists = [[1, 2, 3],[4, 5, 6]]
 dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "money": "$3.66"}, 3: {"name": "Roscoe", "money": "$1.14"}}
 
-# for num in list_data:
-#     print(num * 2)
+ for num in list_data:
+     print(num * 2)
 
 # this will multiply EACH item on the `list_data` by 2
 
@@ -28,13 +28,13 @@ dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "mon
 
 
 
-# for item in dict_data.values():
-#     print(item)
-#     for embed_value in item.values():
-#        print(embed_value)
-#
-# for items in dict_data.values():
-#     print(item["money"])
+for item in dict_data.values():
+     print(item)
+     for embed_value in item.values():
+        print(embed_value)
+
+ for items in dict_data.values():
+     print(item["money"])
 # Please see Python documentation for more you can do with dictionaries and loops.
 
 # Loops and if statements combined
@@ -49,7 +49,7 @@ for num in list_1:
     else :
         print("Too soon")
 
-## Too soon
+# Too soon
 # Too soon
 # I found 3
 # Gone too far!
