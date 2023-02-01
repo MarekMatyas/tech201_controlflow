@@ -14,12 +14,12 @@ dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "mon
 
 # this will multiply EACH item on the `list_data` by 2
 
-# nested for loops
-# for data in embedded_lists:
-#     print(data)
-#     #This prints out both blocks, this gets inside the first square brackets
-#     for num in data:
-#         print(num)
+#nested for loops
+for data in embedded_lists:
+    print(data)
+    #This prints out both blocks, this gets inside the first square brackets
+    for num in data:
+         print(num)
 #         #This prints out also individual items as well as the blocks. This get inside the individual brackets
 
 # loops for dictionaries

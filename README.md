@@ -40,7 +40,7 @@ In Python they are no 'switch statement' or 'case statements'.
 
 ## `for` loops
 
-A `for` loop is where you define an iterator numer and cycle through data (list, dictionary) `foreach` entry in that data structure.
+A `for` loop is where you define an iterator number and cycle through data (list, dictionary) `foreach` entry in that data structure.
 
 Let's create a simple example:
 
@@ -50,4 +50,43 @@ First create a list or dictionary.
 list_data = [1 ,2 ,3 ,4 ,5]
 embedded_lists = [[1, 2, 3],[4, 5, 6]]
 dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "money": "$3.66"}, 3: {"name": "Roscoe", "money": "$1.14"}}
+```
+``` 
+ for num in list_data:
+     print(num * 2)
+```
+This will multiply each item on the `list_data` by * 2
+
+## Nested for loops
+
+A **nested `for` loop** has one loop inside of another. 
+When a loop is nested inside another loop, the inner loop runs many times inside the outer loop.
+
+### Quick example
+
+``` 
+for data in embedded_lists:
+    print(data)
+```
+
+This prints out both individual blocks in `embedded_lists` from the example above.
+``` 
+for num in data:
+    print(num)
+```
+This prints out individual items as well as the blocks.
+
+## `for` loop and `if` statements combined
+
+### Example
+``` 
+list_1 = [1, 2, 3, 4, 5,]
+
+for num in list_1:
+    if num == 3:
+        print("I found 3")
+    elif num >3 :
+        print("Gone too far!")
+    else :
+        print("Too soon")
 ```
