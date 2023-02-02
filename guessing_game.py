@@ -1,5 +1,6 @@
 correct_number = 5
 user_guess = int(input("Please enter your guess."))
+counter = 0
 for number in range(3):
     if user_guess < 1 or user_guess > 20:
         print("Your guess is out of range!")
@@ -12,3 +13,6 @@ for number in range(3):
         break
 else:
     print(f"The number I was looking for was {correct_number}.")
+
+
+
